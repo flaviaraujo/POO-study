@@ -1,6 +1,5 @@
 package week6;
 import java.util.List;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.ArrayList;
 
@@ -77,5 +76,12 @@ public class TurmaALStreams {
         (...)
     */
 
+    public Aluno melhornota(){
+        return this.alunos.stream()
+            .sorted((l1,l2) -> l2.getNota()-l1.getNota())
+            .findFirst()
+            .get()
+            .clone();
+    }
 }
 
