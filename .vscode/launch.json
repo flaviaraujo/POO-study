@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CirculoTeste",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "SomaDatas",
+            "request": "launch",
+            "mainClass": "SomaDatas",
+            "projectName": "POO-study_de7b9dbe"
+        },
+        {
+            "type": "java",
+            "name": "TesteP",
+            "request": "launch",
+            "mainClass": "TesteP",
+            "projectName": "POO-study_de7b9dbe"
+        }
+    ]
+}
