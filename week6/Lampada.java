@@ -31,6 +31,8 @@
          OFF,
          ECO
      }
+
+    public static final Modo OFF = null;
  
      private Modo modo;
  
